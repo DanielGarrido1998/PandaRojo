@@ -1,0 +1,155 @@
+body {
+background-color:cornsilk;
+margin: 0px;
+}
+
+.background{
+    background-image: url("../img/panda_rojo_5.jpg");
+    background-size:cover;
+    background-position-y:60%;
+    padding: 15px;
+}
+
+.background h1{
+    color:#FFDD7E;
+    text-shadow: 4px 4px 4px black;
+    font-size: 45px;
+}
+
+.background h2{
+    color: #FFDD7E;
+    text-shadow: 4px 4px 4px black;
+}
+
+nav {
+background-color: #d46234;
+overflow: hidden;
+}
+
+nav a {
+    color: #FFDD7E;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+
+nav a:hover {
+    background-color:#FFDD7E;
+    color:#d46234;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+background-color: #d46234;
+color:cornsilk;
+text-align:left;
+padding: 2px;
+margin-top: 10px;
+bottom: 0;
+right: 0;
+width: 100%;
+}
+
+footer p{
+    clear: right;
+    text-align: center;
+}
+
+footer img {
+    width: 150px;
+    float:right;
+    padding-top: 1px;
+    padding-right: 50px;
+}
+section {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display:inline-table;
+    justify-content: center;
+}
+
+section a{
+    text-decoration: none;
+}
+
+section img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    object-fit: cover;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+section img:hover {
+    transform: scale(1.1);
+}
+
+table {
+    color:cornsilk;
+    color:black;
+    font-size: 18px;
+    border-collapse: collapse;
+    border: 1px solid #d46234;
+}
+
+.espacio_tabla {
+    padding-bottom: 20px;
+}
+
+thead {
+    background-color: #d46234;
+    color: #FFDD7E;
+    text-align: center;
+}
+
+th{
+    padding: 10px;
+    border-right: 1px solid brown;
+}
+
+td {
+    padding:5px;
+    border-bottom: 1px solid #d46234;
+    border-right: 1px solid #d46234;
+}
+
+.formulario {
+    width: 400px;
+    background-color:#FFDD7E;
+    padding:25px;
+    margin:auto;
+    border-radius: 10%;
+    font-family:'Times New Roman', Times, serif;
+    border: 4px solid #d46234;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    margin: 3px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    border: 2px solid #d46234;
+    font-size: 15px;
+}
+
+.formulario .boton{
+    width: 100%;
+    font-size: 17px;
+    background: #d46234;
+    color:#FFDD7E;
+    box-shadow: 4px 4px 10px #333;
+}
+
+.formulario h2{
+    text-align: center;
+}
+  
